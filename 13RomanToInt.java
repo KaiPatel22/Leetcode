@@ -11,7 +11,7 @@ class Solution {
         conversion.put("C", 100);
         conversion.put("D", 500);
         conversion.put("M", 1000);
-        for (int i = 0; i < s.length() - 1; i++){
+        for (int i = 0; i < s.length(); i++){
             int currentValue = conversion.get(Character.toString(s.charAt(i)));
             int nextValue = 0;
             if (i + 1 < s.length()){
